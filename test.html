@@ -6,7 +6,7 @@
 <div style="text-align:center;">
 <div style="margin:0 auto;">
 
-<h1><font color="#FAFAFA">ºâºâ¤µ¤Ñªº¹B¶Õ</font></h1>
+<h1><font color="#FAFAFA">今日運勢</font></h1>
 <form>
 ¦WºÙ: <input id="txt1" type="text" name="user"/><br/>
 
@@ -17,15 +17,15 @@ var luck=[ ];
  n = Math.floor(Math.random() * (3 - 0 + 1)) + 0;
  
  
-luck[ 0]='¦N';
-luck[ 1]='¤j¦N';
-luck[ 2]='¤¿';
-luck[ 3]='¤j¤¿';
+luck[ 0]='大吉';
+luck[ 1]='吉';
+luck[ 2]='凶';
+luck[ 3]='大凶';
 
 if( document.getElementById('txt1').value==null){
 alert("½Ð¿é¤J");
 }else 
-alert( document.getElementById('txt1').value+" ±zªº¹B¶Õ¬O:"+luck[n]);
+alert( document.getElementById('txt1').value+" 您的運勢是:"+luck[n]);
 
 
 
